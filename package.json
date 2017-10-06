@@ -1,0 +1,31 @@
+{
+  "name": "etweb",
+  "version": "0.0.1",
+  "description": "Collection of connect/express related utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyethereal/node-etweb.git"
+  },
+  "keywords": [
+    "utilities",
+    "logging"
+  ],
+  "author": "Tom Seago <tom@eyethereal.com> (https://eyethereal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyethereal/node-etweb/issues"
+  },
+  "homepage": "https://github.com/eyethereal/node-etweb#readme",
+  "dependencies": {
+    "etlogger": "0.0.1",
+    "lingo": "0.0.5",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.0",
+    "querystring": "^0.2.0",
+    "uglify-js": "^3.1.3"
+  }
+}
